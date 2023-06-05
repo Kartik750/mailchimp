@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.5s ease-in-out;
+    /* border: 1px solid red; */
+}
+
+.box h1{
+    transition: all 0.5s ease-in-out;
+
+}
+
+.box h1:hover{
+    color:aquamarine;
+    background-color: black;
+    border-radius: 10px;
+}

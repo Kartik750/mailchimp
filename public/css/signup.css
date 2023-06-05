@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.main{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(138, 138, 138);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.icon{
+    /* border :1px solid red; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    height: 100%;
+    width: auto;
+}
+
+.head{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.head h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blank{
+    height: 10%;
+    /* border: 1px solid red; */
+}
+
+.first-name{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#f-name, #l-name, #email{
+    height: 42px;
+    outline: 0;
+    width: 80%;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(123, 123, 123);
+    transition: all 0.2s ease-in-out;
+}
+#f-name{
+    border-radius: 5px 5px 0px 0px;
+}
+#email{
+    border-radius: 0px 0px 5px 5px;
+}
+
+#f-name:active, #f-name:focus, #l-name:active, #l-name:focus, #email:active, #email:focus {
+    width: 90%;
+    border-radius: 5px;
+}
+
+#button{
+    height: 50px;
+    margin-top: 40px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: crimson;
+    color: aliceblue;
+    transition: all 0.2s ease-in-out;
+}
+#button:hover{
+    background-color: rgb(44, 105, 159);
+    color: rgb(0, 0, 0);
+}
+#button:active{
+    transform: scale(0.85);
+}
